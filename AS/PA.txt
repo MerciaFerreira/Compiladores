@@ -1,0 +1,21 @@
+M_INICIO
+
+int a, razao, n
+int termo
+int cont
+
+escreva ("Forneca os valores: a, razao, n", "\n")
+leia (a)
+leia (razao)
+leia (n)
+
+cont = 0
+
+while (cont < n) {
+    termo = (a + cont * razao)
+    escreva( termo, " ")
+    cont = cont + 1
+}
+escreva("\n")
+
+M_FIM

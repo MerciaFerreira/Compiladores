@@ -1,0 +1,16 @@
+M_INICIO 
+ 
+int n, i, resultado = 1
+
+escreva ("Digite um valor:", "\n")
+
+leia(n)
+
+  for i = n; i > 0; i-- {
+
+      resultado = resultado * i
+
+  }
+  escreva(resultado, "\n")
+ 
+M_FIM
