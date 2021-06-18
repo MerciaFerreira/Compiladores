@@ -29,32 +29,32 @@ Ex.: int var_1, var-2, var3.
 ```
 - int: Aceita um número inteiro ou uma variável.
 ```
-Ex.: int a
-     int a, b, c
-     int a = 10, b, c= 2
+int a
+int a, b, c
+int a = 10, b, c= 2
 ```
 - real: Aceita um número real ou uma variável.
 ```
-Ex.: real a
-     real a = 10.2, b = 2.2
+real a
+real a = 10.2, b = 2.2
 ```
--string: Aceita texto/string.
+- string: Aceita texto/string.
 ```
-Ex.: texto a = "Mércia"
-     texto a, b = "Texto"
+texto a = "Mércia"
+texto a, b = "Texto"
 ```
--vetores: Aceita declarações dos tipos reais, inteiro e texto
+- vetores: Aceita declarações dos tipos reais, inteiro e texto
 ```
-Ex.: int vetor[10]
-     real vetor[10]
-     texto vetor[10]
+int vetor[10]
+real vetor[10]
+texto vetor[10]
 ```
 ## ATRIBUIÇÃO DE VALORES
 A atribuição de valores é dada pelo símbolo de igual: "=".
 ```
-Ex.: a = 2
-     b = 10
-     c = a + b
+a = 2
+b = 10
+c = a + b
 ```
 
 ## OPERAÇÕES DE ESCRITA E LEITURA
@@ -79,10 +79,15 @@ leia (a)
 São utilizados os símbolos de operadores matemáticos: Ex.: +, -, *,/.
 ```
 Soma = a + b
+
 Subtração = a - b
+
 Multiplicação = a * b
+
 Divisão = a / b
+
 Exponenciação = a ^ b
+
 Radiciação = sqrt(a)
 
 Ex.: escreva (“soma:”)
@@ -118,6 +123,7 @@ else{
 }
 ``` 
 - TERNÁRIO
+O ternário funciona basicamente como um if. Se numero >= 0 então numero++, se não número--.
 ``` 
 escreva("Digite um numero")
 leia(numero)
