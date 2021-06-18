@@ -180,7 +180,7 @@ for i=0; i<=4; i++ {
 M_FIM
 ```
 
--Exemplo 2
+- Exemplo 2
 Problema: Média 3 [URI - 1040]
 ```
 M_INICIO
@@ -232,7 +232,7 @@ real n1, n2, n3, n4, media, exame
 M_FIM
 ```
 
--Exemplo 3
+- Exemplo 3
 Problema: Fatorial Simples [URI - 1153]
 ```
 M_INICIO 
