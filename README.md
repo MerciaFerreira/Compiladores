@@ -17,7 +17,7 @@ Para comentar uma linha, adicione m\ no início.
 Ex.: m\ Meu primeiro compilador.
 ```
 
-##TIPOS E DECLARAÇÕES DE VARIÁVEIS
+## TIPOS E DECLARAÇÕES DE VARIÁVEIS
 OBS:
 1. Todas as declarações de variáveis são obrigatoriamente feitas DEPOIS do
 indicador de INÍCIO. Se alguma variável for declarada antes do início vai
