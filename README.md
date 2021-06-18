@@ -109,13 +109,13 @@ Nesse exemplo será resolvido primeiro o que está entre os parênteses e só de
 
 - IF
 ``` 
-if (media >= 7.0){
+if media >= 7.0 {
     escreva("Aluno aprovado.", "\n")
 }
 ```
 - IF ELSE
 ```
-if (media >= 7.0){
+if media >= 7.0 {
     escreva("Aluno aprovado.", "\n")
 }
 else{
@@ -141,7 +141,7 @@ for i=0; i<=4; i++ {
 
 - WHILE
 ```
-while (cont < n) {
+while cont < n {
     termo = (a + cont * razao)
     escreva( termo, " ")
     cont = cont + 1
@@ -172,7 +172,7 @@ for i=0; i<=4; i++ {
 }
 
 for i=0; i<=4; i++ {
-    if(vetor[i]<=10){
+    if vetor[i]<=10 {
         escreva(i, " = ", vetor[i])
     }
 }
@@ -187,7 +187,7 @@ M_INICIO
 
 real n1, n2, n3, n4, media, exame
 
-	leia(n1)
+    leia(n1)
     leia(n2)
     leia(n3)
     leia(n4)
@@ -195,14 +195,14 @@ real n1, n2, n3, n4, media, exame
 	escreva("Media: ", media, "\n")
 
 
-	if (media >= 7.0){
+	if media >= 7.0 {
 
 		escreva("Aluno aprovado.", "\n")
 
 	}
 	else{
 
-		if (media < 5.0){
+		if media < 5.0{
 
 			escreva("Aluno reprovado.", "\n")
 
@@ -213,7 +213,7 @@ real n1, n2, n3, n4, media, exame
 			leia(exame)
 			escreva("Nota do exame: ", exame, "\n")
 			media = (media + exame)/2
-			if (media >= 5.0){
+			if media >= 5.0 {
 
 				escreva("Aluno aprovado.", "\n")
 
