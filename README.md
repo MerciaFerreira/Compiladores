@@ -1,5 +1,5 @@
-# Compiladores - Mércia Ferreira
-Esta é a documentação da linguagem desenvolvida na disciplina de compiladores. 
+# Compilador M&Ms - Mércia Ferreira
+Esta é a documentação da linguagem M&Ms que foi desenvolvida na disciplina de Compiladores. 
 
 ## INDICARORES DE INÍCIO E FIM DO PROGRAMA 
 
@@ -59,6 +59,7 @@ c = a + b
 
 ## OPERAÇÕES DE ESCRITA E LEITURA
 - Escrita
+
 Para a operação de escrita utiliza-se o comando "escreva" acompanhado de strings, variáveis, operações aritméticas.
 ```
 escreva ("Olá mundo")
@@ -67,6 +68,7 @@ escreva (a+b)
 escreva ("Escreva o primeiro valor", a)
 ```
 - Leitura
+
 Para efetuar a leitura de uma variável utiliza-se o comando "leia" acompanhado da variável.
 ```
 int nota 
@@ -76,6 +78,7 @@ leia (a)
 ``` 
 
 ## OPERADORES MATEMÁTICOS
+
 São utilizados os símbolos de operadores matemáticos: Ex.: +, -, *,/.
 ```
 Soma = a + b
@@ -123,6 +126,7 @@ else{
 }
 ``` 
 - TERNÁRIO
+
 O ternário funciona basicamente como um if. Se numero >= 0 então numero++, se não número--.
 ``` 
 escreva("Digite um numero")
@@ -130,7 +134,7 @@ leia(numero)
 numero >= 0 ? numero++ : numero--;
 escreva(numero)
 ```
-##ESTRUTURAS DE REPETIÇÃO FOR, WHILE
+## ESTRUTURAS DE REPETIÇÃO FOR, WHILE
 
 - FOR
 ```
@@ -159,7 +163,8 @@ void funcao(){
 
 Os exemplos a seguir são todos feitos a partir de questões do URI
 
-- Exemplo 1 
+- Exemplo 1
+ 
 Problema: Seleçao em Vetor I [URI - 1174]
 ```
 M_INICIO 
@@ -180,7 +185,8 @@ for i=0; i<=4; i++ {
 M_FIM
 ```
 
-- Exemplo 2
+- Exemplo 2 
+
 Problema: Média 3 [URI - 1040]
 ```
 M_INICIO
@@ -233,6 +239,7 @@ M_FIM
 ```
 
 - Exemplo 3
+
 Problema: Fatorial Simples [URI - 1153]
 ```
 M_INICIO 
